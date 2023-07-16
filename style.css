@@ -124,7 +124,7 @@ header{
     grid-template-columns: 1fr;
 }
 .team-img img{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .team-content{
     text-align: center;
