@@ -136,15 +136,6 @@ header{
 /*  medium screen device */
 
 @media screen and (min-width:576px) and (max-width:962px) {
-    header{
-        padding: 25px 30px;
-    }
-    .navbar{
-        gap: px;
-    }
-    .navbar ul{
-        gap: 20px;
-    }
     .team-container{
         grid-template-columns: 1fr;
         padding: 40px;
