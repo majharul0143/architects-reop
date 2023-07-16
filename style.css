@@ -95,8 +95,65 @@ header{
 .team-content p{
     margin: 20px 0;
 }
+.features-section{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.features-content{
+    max-width: 100%;
+}
+.features-img{
+    max-width: 100%;
+}
+.features-img img{
+    width: 100%;
+    height: 95%;
+    margin-left: 1.5rem;
+}
+.features-content h2{
+    color: #131313;
+    font-size: 2.7rem;
+}
+.features-content p{
+    margin: 1.5rem 0;
+}
+.card-text{
+    background-color: rgb(252, 252, 252);
+    padding: 0px 25px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 
-
+}
+.card-text h4{
+    font-size: 1rem;
+}
+.card-text p{
+    margin-top: 10px;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+.position-btn{
+    background-color: #FF900E;
+    max-width: 260px;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px 0;
+    position: relative;
+    bottom: 80px;
+    left: -20px;
+}
+.position-btn h5{
+    font-size: 3rem;
+    color: #ffffff;
+}
+.position-btn p{
+    color: #ffffff;
+}
 /* media quary for mobile device  */
 
 @media screen and (max-width:576px) {
@@ -118,17 +175,32 @@ header{
 }
 .team-container{
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 20px;
 }
 .team-img{
     grid-template-columns: 1fr;
+    width: 100%;
 }
 .team-img img{
-    margin-left: 15px;
+    margin: 0 auto;
+    width: 90%;
 }
 .team-content{
     text-align: center;
     margin: 0 17px 0 17px;
+}
+.features-container{
+    grid-template-columns: 1fr;
+}
+.title,.para{
+    text-align: center;
+}
+.features-img img{
+    width: 90%;
+}
+.position-btn{
+    position: static;
+    margin: 20px;
 }
 }
 
